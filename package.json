@@ -1,0 +1,40 @@
+{
+  "name": "responsive-times",
+  "version": "1.0.0",
+  "description": "A responsive newspaper template for testing responsive ad types.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Reklino/Responsive-Times.git"
+  },
+  "keywords": [
+    "responsive",
+    "fluid",
+    "ad",
+    "newspaper",
+    "ads",
+    "rich",
+    "media",
+    "html5"
+  ],
+  "author": "Reklino",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Reklino/Responsive-Times/issues"
+  },
+  "homepage": "https://github.com/Reklino/Responsive-Times#readme",
+  "devDependencies": {
+    "browser-sync": "^2.9.1",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^2.3.1",
+    "gulp-inject": "^1.5.0",
+    "gulp-jshint": "^1.11.2",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.0.4",
+    "gulp-svgstore": "^5.0.4",
+    "gulp-uglify": "^1.4.0"
+  }
+}
