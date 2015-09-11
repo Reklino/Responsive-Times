@@ -1,0 +1,52 @@
+body {
+	font-family: $sans-serif;
+	font-weight: 400;
+	color: $header;
+}
+
+/*===============================
+=            Headers            =
+===============================*/
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: $serif;
+	font-weight: 300;
+	color: $body;
+}
+
+h1 {
+	font-size: 3em;
+	margin-bottom: 1em;
+}
+h2 {
+	font-size: 2.5em;
+	margin-bottom: 1em;
+}
+h3 {
+	font-size: 2em;
+	font-style: italic;
+	margin-bottom: 1em;
+}
+h4 {
+	font-size: 1.5em;
+	margin-bottom: 1em;
+}
+h5 {
+	font-size: 1em;
+	margin-bottom: 1em;
+}
+
+/*=====  End of Headers  ======*/
+
+
+/*=================================
+=            Paragraph            =
+=================================*/
+
+p {
+	line-height: 1.5em;
+}
+
+
+/*=====  End of Paragraph  ======*/
+

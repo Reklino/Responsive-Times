@@ -1,0 +1,134 @@
+
+
+/*==============================
+=            Header            =
+==============================*/
+
+header#header {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	padding: 2em 0;
+
+	.header-container {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		width: 1024px;
+		#logo {
+			color: $header;
+			font-family: $serif;
+			font-size: 70px;
+			font-weight: 700;
+		}
+	}
+}
+
+/*=====  End of Header  ======*/
+
+
+/*===========================
+=            Nav            =
+===========================*/
+
+nav#nav {
+	display: flex;
+	justify-content: center;
+
+	ul {
+		display: flex;
+		width: 1024px;
+		height: 3em;
+		border: 1px solid $border;
+		border-width: 1px 0;
+	}
+
+	li {
+		margin-right: 2em;
+		line-height: 3em;
+		font-family: $sans-serif;
+	}
+
+	a {
+		font-size: 14px;
+		text-decoration: none;
+		color: $header;
+		&:hover {
+			color: lighten($header, 45);
+		}
+	}
+}
+
+/*=====  End of Nav  ======*/
+
+
+
+/*============================
+=            Main            =
+============================*/
+
+main#main {
+	display: flex;
+	justify-content: center;
+	padding: 2em 0;
+
+	main.layout {
+		max-width: 724px;
+		padding-right: 1em;
+	}
+
+	aside.layout {
+		max-width: 300px;
+	}
+}
+
+/*=====  End of Main  ======*/
+
+
+/*==============================
+=            Footer            =
+==============================*/
+
+footer#footer {
+	display: flex;
+	justify-content: center;
+
+	main.layout {
+		width: 1024px;
+		display: flex;
+	}
+
+	ul {
+		flex: 1 100%;
+	}
+
+	li {
+		font-size: 14px;
+		margin-bottom: 1em;
+	}
+
+	a {
+		text-decoration: none;
+		color: $header;
+
+		&:hover {
+			color: $body;
+		}
+	}
+}
+
+/*=====  End of Footer  ======*/
+
+
+
+/*=====================================
+=            Subtle Styles            =
+=====================================*/
+
+.subtle {
+	nav, article figure, article main, #logo, #footer { opacity: 0.4; }
+}
+
+
+/*=====  End of Subtle Styles  ======*/
+

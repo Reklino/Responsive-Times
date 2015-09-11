@@ -8,6 +8,7 @@ var gulp 			= require('gulp'),
 
 gulp.task('sass', function() {
 	return gulp.src('sass/*.scss')
+		.pipe(sass())
 		.pipe(autoprefixer())
 		.pipe(gulp.dest('css'))
 		.pipe(reload({stream: true}));

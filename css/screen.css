@@ -1,0 +1,330 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+* {
+  outline: none; }
+
+/*=============================
+=            Basic            =
+=============================*/
+* {
+  box-sizing: border-box; }
+
+/*=====  End of Basic  ======*/
+/*================================
+=            Articles            =
+================================*/
+article {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 1em; }
+  article figure {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+        -ms-flex: 1;
+            flex: 1; }
+    article figure img {
+      width: 100%; }
+  article main {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    padding-left: 1em; }
+
+/*=====  End of Articles  ======*/
+body {
+  font-family: "proxima-nova";
+  font-weight: 400;
+  color: #252A2B; }
+
+/*===============================
+=            Headers            =
+===============================*/
+h1, h2, h3, h4, h5, h6 {
+  font-family: "karmina";
+  font-weight: 300;
+  color: #7A888D; }
+
+h1 {
+  font-size: 3em;
+  margin-bottom: 1em; }
+
+h2 {
+  font-size: 2.5em;
+  margin-bottom: 1em; }
+
+h3 {
+  font-size: 2em;
+  font-style: italic;
+  margin-bottom: 1em; }
+
+h4 {
+  font-size: 1.5em;
+  margin-bottom: 1em; }
+
+h5 {
+  font-size: 1em;
+  margin-bottom: 1em; }
+
+/*=====  End of Headers  ======*/
+/*=================================
+=            Paragraph            =
+=================================*/
+p {
+  line-height: 1.5em; }
+
+/*=====  End of Paragraph  ======*/
+/*==============================
+=            Header            =
+==============================*/
+header#header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  padding: 2em 0; }
+  header#header .header-container {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 1024px; }
+    header#header .header-container #logo {
+      color: #252A2B;
+      font-family: "karmina";
+      font-size: 70px;
+      font-weight: 700; }
+
+/*=====  End of Header  ======*/
+/*===========================
+=            Nav            =
+===========================*/
+nav#nav {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  nav#nav ul {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 1024px;
+    height: 3em;
+    border: 1px solid #edeff0;
+    border-width: 1px 0; }
+  nav#nav li {
+    margin-right: 2em;
+    line-height: 3em;
+    font-family: "proxima-nova"; }
+  nav#nav a {
+    font-size: 14px;
+    text-decoration: none;
+    color: #252A2B; }
+    nav#nav a:hover {
+      color: #93a0a2; }
+
+/*=====  End of Nav  ======*/
+/*============================
+=            Main            =
+============================*/
+main#main {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 2em 0; }
+  main#main main.layout {
+    max-width: 724px;
+    padding-right: 1em; }
+  main#main aside.layout {
+    max-width: 300px; }
+
+/*=====  End of Main  ======*/
+/*==============================
+=            Footer            =
+==============================*/
+footer#footer {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  footer#footer main.layout {
+    width: 1024px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex; }
+  footer#footer ul {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 100%;
+        -ms-flex: 1 100%;
+            flex: 1 100%; }
+  footer#footer li {
+    font-size: 14px;
+    margin-bottom: 1em; }
+  footer#footer a {
+    text-decoration: none;
+    color: #252A2B; }
+    footer#footer a:hover {
+      color: #7A888D; }
+
+/*=====  End of Footer  ======*/
+/*=====================================
+=            Subtle Styles            =
+=====================================*/
+.subtle nav, .subtle article figure, .subtle article main, .subtle #logo, .subtle #footer {
+  opacity: 0.4; }
+
+/*=====  End of Subtle Styles  ======*/
+iframe {
+  overflow: hidden; }
+
+/*==============================
+=            Header            =
+==============================*/
+#ad-pos-1-container {
+  position: relative;
+  z-index: 10000;
+  width: 728px;
+  height: 90px;
+  background: #F8F8F8; }
+  #ad-pos-1-container.filled {
+    background: transparent; }
+    #ad-pos-1-container.filled:before {
+      display: none; }
+  #ad-pos-1-container:before {
+    content: 'Ad Position 1 - 728 x 90';
+    display: block;
+    position: absolute;
+    z-index: -1;
+    bottom: 0;
+    right: 0;
+    padding: 0.75em 1em;
+    color: #dedede; }
+
+/*=====  End of Header  ======*/
+/*===================================
+=            Out of Page            =
+===================================*/
+#ad-pos-2-container {
+  position: relative;
+  z-index: 10000;
+  background: #F8F8F8;
+  height: 30px;
+  width: 1024px;
+  margin: 0 auto; }
+  #ad-pos-2-container.filled {
+    background: transparent; }
+    #ad-pos-2-container.filled:before {
+      display: none; }
+  #ad-pos-2-container:before {
+    content: 'Ad Position 2 - 1024 x 30';
+    display: block;
+    position: absolute;
+    z-index: -1;
+    bottom: 0;
+    right: 0;
+    padding: 0.75em 1em;
+    color: #dedede; }
+
+#ad-pos-2-content {
+  overflow: hidden; }
+
+/*=====  End of Out of Page  ======*/
+/*====================================
+=            Main - Aside            =
+====================================*/
+#ad-pos-3-container {
+  position: relative;
+  z-index: 10000;
+  background: #F8F8F8;
+  width: 300px;
+  height: 250px; }
+  #ad-pos-3-container.filled {
+    background: transparent; }
+    #ad-pos-3-container.filled:before {
+      display: none; }
+  #ad-pos-3-container:before {
+    content: 'Ad Position 3 - 300 x 250';
+    display: block;
+    position: absolute;
+    z-index: -1;
+    bottom: 0;
+    right: 0;
+    padding: 0.75em 1em;
+    color: #dedede; }
+
+/*=====  End of Main - Aside  ======*/

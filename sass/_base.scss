@@ -1,0 +1,31 @@
+/*=============================
+=            Basic            =
+=============================*/
+
+* {
+	box-sizing: border-box;
+}
+
+/*=====  End of Basic  ======*/
+
+
+/*================================
+=            Articles            =
+================================*/
+
+article {
+	display: flex;
+	margin-bottom: 1em;
+	figure {
+		flex: 1;
+		img {
+			width: 100%;
+		}
+	}
+	main {
+		flex: 1;
+		padding-left: 1em;
+	}
+}
+
+/*=====  End of Articles  ======*/

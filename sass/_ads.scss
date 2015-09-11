@@ -1,0 +1,89 @@
+iframe {
+	overflow: hidden;
+}
+
+/*==============================
+=            Header            =
+==============================*/
+
+#ad-pos-1-container {
+	position: relative;
+	z-index: 10000;
+	width: 728px;
+	height: 90px;
+	background: #F8F8F8;
+
+	&.filled { background: transparent; &:before { display: none; } }
+
+	&:before {
+		content: 'Ad Position 1 - 728 x 90';
+		display: block;
+		position: absolute;
+		z-index: -1;
+		bottom: 0;
+		right: 0;
+		padding: 0.75em 1em;
+		color: #dedede;
+	}
+}
+
+/*=====  End of Header  ======*/
+
+/*===================================
+=            Out of Page            =
+===================================*/
+
+#ad-pos-2-container {
+	position: relative;
+	z-index: 10000;
+	background: #F8F8F8;
+	height: 30px;
+	width: 1024px;
+	margin: 0 auto;
+
+	&.filled { background: transparent; &:before { display: none; } }
+
+	&:before {
+		content: 'Ad Position 2 - 1024 x 30';
+		display: block;
+		position: absolute;
+		z-index: -1;
+		bottom: 0;
+		right: 0;
+		padding: 0.75em 1em;
+		color: #dedede;
+	}
+}
+
+#ad-pos-2-content {
+	overflow: hidden;
+}
+/*=====  End of Out of Page  ======*/
+
+
+/*====================================
+=            Main - Aside            =
+====================================*/
+
+#ad-pos-3-container {
+	position: relative;
+	z-index: 10000;
+	background: #F8F8F8;
+	width: 300px;
+	height: 250px;
+
+	&.filled { background: transparent; &:before { display: none; } }
+
+	&:before {
+		content: 'Ad Position 3 - 300 x 250';
+		display: block;
+		position: absolute;
+		z-index: -1;
+		bottom: 0;
+		right: 0;
+		padding: 0.75em 1em;
+		color: #dedede;
+	}
+}
+
+/*=====  End of Main - Aside  ======*/
